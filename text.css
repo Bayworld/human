@@ -1,0 +1,245 @@
+body{
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.boxes{
+    margin: 100px;
+    border: 5px solid green;
+    border-radius: 55px;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.box1{
+    border: 5px solid green;
+    border-radius: 55px;
+    width: 500px;
+    height: 100px;
+    background: yellow;
+    margin: 100px;
+}
+
+.box2{
+    border: 5px solid green;
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    margin: 100px;
+}
+
+#human{
+    margin: 50px 100px;
+}
+
+.head{
+    border: 4px solid red;
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+    background: white; 
+}
+
+.eye{
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background: black;
+}
+
+.e{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    width: 4px;
+    height: 2px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.ey{
+    border: 1px solid white;
+    border-radius: 10px;
+    background: white;
+    width: 4px;
+    height: 2px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.eye2{
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    position: relative;
+    left: 60px;
+    top: 2px;
+    background: black;
+}
+
+.nose{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 38px;
+    transform: rotate(-45deg);
+    top: 10px;
+    border-bottom: none;
+    border-left: none;
+}
+
+.inner-nose{
+    border: 2px solid black;
+    width: 10px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative;
+    left: 41px;
+    bottom: 3px;
+}
+
+.nose-div{
+    border: 2px solid black;
+    width: 0.5px;
+    height: 5px;
+    position: relative;
+    left: 45px;
+    bottom: 12px;
+}
+
+.mouth{
+    border: 2px solid black;
+    width: 25px;
+    height: 10px;
+    position: relative;
+    left: 35px;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+}
+
+.inner-mouth{
+    border: 2px solid black;
+    width: 15px;
+    height: 2px;
+    position: relative;
+    left: 39px;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.neck{
+    border: 2px solid red;
+    background: white;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    left: 12px;
+    border-radius: 31px;
+    border-top: none;
+}
+
+.body{
+    border: 4px solid red;
+    background: gray;
+    width: 95px;
+    height: 100px;
+    border-radius: 21px;
+    border-top: none;
+    position: relative;
+    bottom: 30px;
+}
+
+.first-hand{
+    border: 2px solid red;
+    border-radius: 21px;
+    background: gray;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    bottom: 18px;
+    right: 30px;
+    transform: rotate(15deg);
+}
+
+.first-hand2{
+    border: 2px solid red;
+    border-radius: 21px;
+    background: gray;
+    width: 50px;
+    height: 10px;
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    transform: rotate(100deg);
+}
+
+.second-hand{
+    border: 2px solid red;
+    border-radius: 21px;
+    background: gray;
+    width: 20px;
+    height: 10px;
+    position: relative;
+    bottom: 138px;
+    left: 79px;
+    transform: rotate(25deg);
+}
+
+.right-leg{
+    border: 2px solid red;
+    border-radius: 8px;
+    background: wheat;
+    width: 20px;
+    height: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+
+.right-leg2{
+    border: 2px solid red;
+    border-radius: 8px;
+    background: wheat;
+    width: 20px;
+    height: 50px;
+    position: relative;
+    bottom: 55px;
+    left: 10px;
+    transform: rotate(-5deg);
+}
+
+.left-leg{
+    border: 2px solid red;
+    border-radius: 8px;
+    background: wheat;
+    width: 20px;
+    height: 50px;
+    position: relative;
+    bottom: 157px;
+    left: 60px;
+}
+
+.left-leg2{
+    border: 2px solid red;
+    border-radius: 8px;
+    background: wheat;
+    width: 20px;
+    height: 50px;
+    position: relative;
+    bottom: 165px;
+    left: 60px;
+    transform: rotate(-5deg);
+}
